@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.38.1:model_id=468065:lm=provided:date=27_01_2026_14:36</Creator>
+        <Created>2026-01-06T10:01:32.814+01:00</Created>
+        <LastChange>2026-02-26T14:40:21.373+01:00</LastChange>
+        <TranskribusMetadata docId="13472921" pageId="111654287" pageNr="5" status="DONE" userId="485543" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=QAYAIAHLPMGFIUWLBZIASOOU" imageId="94308312"/>
+    </Metadata>
+    <Page imageFilename="111654287.jpg" imageWidth="2479" imageHeight="3508">
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="835,587 821,1579 2180,1637 2194,634"/>
+            <TextLine id="l_9" custom="readingOrder {index:0;}">
+                <Coords points="845,624 1070,632 1070,632 1070,602 1071,602 846,594"/>
+                <Baseline points="845,624 1070,632 1070,632"/>
+                <TextEquiv>
+                    <Unicode>פינה דר.-מע.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:1;}">
+                <Coords points="852,693 1085,673 1406,735 1703,713 1860,748 2159,725 2152,619 2025,589 845,582"/>
+                <Baseline points="859,677 886,674 913,672 940,671 967,671 994,671 2164,744"/>
+                <TextEquiv>
+                    <Unicode>פעולות נוספות שכדאי לעשות ברוג׳ם אלבחתה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:2;}">
+                <Coords points="916,849 978,827 1090,879 1325,787 2135,854 2189,837 2186,738 909,689"/>
+                <Baseline points="922,782 948,775 975,773 1002,771 1029,770 1056,770 1083,770 1109,770 1136,770 1163,770 1190,770 1217,770 1244,769 2193,818"/>
+                <TextEquiv>
+                    <Unicode>1) לגמור עד הסלע את חפירת המרחב המע.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l" custom="readingOrder {index:3;}">
+                <Coords points="1376,918 2025,961 2075,926 2182,923 2181,842 1723,797 1619,832 1372,822"/>
+                <Baseline points="1383,894 2181,915 2187,918"/>
+                <TextEquiv>
+                    <Unicode>1א) ממז. ל-w1 לבדוק תחת הריצוף.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:4;}">
+                <Coords points="856,966 1683,958 1944,1025 2184,998 2164,916 1968,911 1891,953 1436,936 1235,864 854,889"/>
+                <Baseline points="863,936 2187,972 2184,972"/>
+                <TextEquiv>
+                    <Unicode>2) לחפור בצד הדר. של w2 לגילוי הפן הדר.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:5;}">
+                <Coords points="908,1003 1575,1089 1879,1040 2124,1059 2166,998 1641,1012 1547,958 906,954"/>
+                <Baseline points="916,1003 2171,1036 2172,1035"/>
+                <TextEquiv>
+                    <Unicode>3) להגדיל לצפון (ולמז.) את חפירת החדר המז.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:6;}">
+                <Coords points="876,1188 1047,1196 1168,1136 2146,1166 2166,1040 2000,1105 867,1003"/>
+                <Baseline points="880,1064 2173,1124 2167,1121"/>
+                <TextEquiv>
+                    <Unicode>4) לבדוק את ערימת האבנים הגדולות לרגלי הפינה הדר. - מע.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:7;}">
+                <Coords points="840,1231 1055,1208 1676,1246 1793,1290 1859,1258 2187,1287 2182,1203 1859,1154 1718,1183 1166,1136 1047,1194 835,1144"/>
+                <Baseline points="848,1194 2188,1279 2188,1278"/>
+                <TextEquiv>
+                    <Unicode>(5) לחפור תעלה משולי האתר הדרומיים, צפונה)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:8;}">
+                <Coords points="877,1404 1587,1364 2152,1434 2142,1303 2077,1273 864,1225"/>
+                <Baseline points="880,1303 2153,1389 2151,1389"/>
+                <TextEquiv>
+                    <Unicode>6) לחשוף את הקצה המע. של w2 מבחוץ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:9;}">
+                <Coords points="1171,1466 1245,1506 1642,1527 1711,1490 1854,1540 2142,1552 2154,1436 1733,1419 1589,1364 1164,1384"/>
+                <Baseline points="1176,1432 2159,1507 2157,1504"/>
+                <TextEquiv>
+                    <Unicode>7) חפירות נוספות באתר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:10;}">
+                <Coords points="866,1523 1386,1580 1456,1527 1761,1575 1822,1543 2102,1567 2139,1521 1267,1505 1069,1428 862,1471"/>
+                <Baseline points="873,1498 2143,1557 2139,1555"/>
+                <TextEquiv>
+                    <Unicode>8) לחשוף פינה דר. - מע. של w2-w3 מבחוץ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_10" custom="readingOrder {index:11;}">
+                <Coords points="841,1566 1064,1583 1061,1582 1052,1610 1008,1572 843,1536"/>
+                <Baseline points="841,1566 1064,1583 1061,1582"/>
+                <TextEquiv>
+                    <Unicode>וממזרחה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:12;}">
+                <Coords points="815,1579 1761,1595 2080,1644 2157,1634 2156,1550 1805,1542 1756,1577 1503,1525 1360,1575 814,1538"/>
+                <Baseline points="847,1536 2159,1607 2155,1605"/>
+                <TextEquiv>
+                    <Unicode>הערימה כבר כמעט לא נראית, בגלל שפכי החפירה מצפונה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

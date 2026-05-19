@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.35.0:model_id=396997:lm=provided:date=01_01_2026_10:53</Creator>
+        <Created>2025-12-03T18:25:51.365+01:00</Created>
+        <LastChange>2026-01-07T20:07:03.487+01:00</LastChange>
+        <TranskribusMetadata docId="12663508" pageId="107453025" pageNr="10" status="FINAL" userId="485543" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=XOPECXPEKGMOMHWEWDSTWKQX" imageId="90283067"/>
+    </Metadata>
+    <Page imageFilename="107453025.jpg" imageWidth="689" imageHeight="919">
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="28,51 28,826 661,826 661,51"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="29,102 644,78 645,35 611,31 31,46"/>
+                <Baseline points="34,90 64,88 95,85 125,85 156,85 186,83 217,83 247,83 278,83 308,82 339,81 370,79 400,79 431,79 461,79 492,76 522,73 553,71 583,72 614,72 645,73"/>
+                <TextEquiv>
+                    <Unicode>כ 47. ק VIII,  חדר מערבי. אתמול 8/VIII/1969 חפרתי עוד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="24,129 647,112 654,80 24,100"/>
+                <Baseline points="29,116 60,113 91,113 122,113 154,113 185,111 216,110 248,110 279,111 310,111 342,109 373,110 404,108 435,107 467,107 498,107 529,105 561,104 592,103 623,103 655,103"/>
+                <TextEquiv>
+                    <Unicode>קצת בדפן הצפונית של הבדיקה שחפרתי לתוך הבניה (שממערב</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="42,159 157,138 656,138 656,106 607,104 520,125 42,122"/>
+                <Baseline points="47,145 77,142 108,140 138,138 169,136 199,135 230,135 260,134 291,135 321,134 352,133 383,133 413,133 444,134 474,135 505,134 535,133 566,131 596,131 627,130 658,132"/>
+                <TextEquiv>
+                    <Unicode>לדפן המע. של החדר). כמה ס"מ מעל שכבת הנחל התגלו שתי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="30,171 659,164 660,137 613,131 31,144"/>
+                <Baseline points="35,164 66,162 97,163 128,160 160,160 191,161 222,159 253,159 285,158 316,158 347,157 378,157 410,158 441,159 472,158 503,158 535,157 566,156 597,156 628,156 660,155"/>
+                <TextEquiv>
+                    <Unicode>אבנים (לוחות עבים) מונחות זה בקצה זה בקו המהווה זוית ישרה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="32,202 118,184 657,186 657,165 567,157 32,171"/>
+                <Baseline points="37,184 68,183 99,182 130,182 161,182 192,183 223,183 254,182 285,183 316,183 348,183 379,182 410,183 441,184 472,183 503,182 534,181 565,182 596,182 627,181 659,180"/>
+                <TextEquiv>
+                    <Unicode>עם (הקצה הצפוני של) הבניה המהווה את הדפן המע. של הקבר,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="23,223 658,214 654,184 23,203"/>
+                <Baseline points="28,214 59,213 91,214 122,213 154,210 186,210 217,208 249,207 280,206 312,206 344,205 375,205 407,206 438,205 470,207 502,205 533,204 565,205 596,205 628,206 660,205"/>
+                <TextEquiv>
+                    <Unicode>שורת הבניה הנוצרת על ידי שתי אבנים אלה, כיוונה צפ.-מז. – דר,- מע.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="32,251 643,237 655,214 33,221"/>
+                <Baseline points="37,242 68,240 99,238 130,238 161,236 192,235 223,235 254,235 285,234 316,233 347,232 378,230 409,231 440,229 471,229 502,228 533,228 564,229 595,230 626,230 657,229"/>
+                <TextEquiv>
+                    <Unicode>מעל שתי אבנים יש אבנים (מהן גדולות) לא מסודרות, שפוכות.-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="59,268 524,269 653,259 654,234 59,252"/>
+                <Baseline points="64,263 93,263 123,261 152,259 182,258 211,259 241,258 270,258 300,257 329,256 359,253 388,256 418,255 447,255 477,255 506,255 536,253 565,256 595,258 624,257 654,256"/>
+                <TextEquiv>
+                    <Unicode>מטרת כל הבניה הזו לא ברורה לי לגמרי (אם כי התיאוריה על-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="47,289 384,279 651,299 651,258 47,270"/>
+                <Baseline points="52,283 82,284 112,285 142,284 172,284 202,285 232,285 262,283 292,282 322,280 352,279 382,277 412,279 442,279 472,279 502,280 532,281 562,283 592,282 622,282 653,286"/>
+                <TextEquiv>
+                    <Unicode>נסיון להרחיב את החדר המערבי של קבר VIII, נסיון שנכשל בגלל</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="55,312 659,325 659,300 521,283 55,295"/>
+                <Baseline points="60,311 90,311 120,311 150,312 180,311 210,311 240,312 270,313 300,311 330,310 360,309 390,309 420,307 450,307 480,307 510,309 540,310 570,311 600,313 630,314 661,320"/>
+                <TextEquiv>
+                    <Unicode>העדר סלע יציב בצד זה, היא אפשרית). יש להביא בחשבון</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="73,348 203,366 238,343 659,349 659,325 539,310 73,316"/>
+                <Baseline points="78,342 107,338 136,341 165,341 194,343 223,344 252,342 282,341 311,340 340,340 369,338 398,338 427,337 456,338 486,338 515,340 544,340 573,341 602,341 631,343 661,346"/>
+                <TextEquiv>
+                    <Unicode>גם אפשרות שהבניה (והחפירה שבותה נבנתה) קשורים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="59,382 658,369 658,350 570,341 59,355"/>
+                <Baseline points="64,371 93,372 123,371 153,372 183,372 213,372 242,371 272,369 302,368 332,366 362,366 391,366 421,364 451,365 481,366 511,367 540,366 570,367 600,367 630,368 660,367"/>
+                <TextEquiv>
+                    <Unicode>איכשהו לקבר II הנמצא סמוך אליה, בכיוון צפ.-מע ממנה.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="71,403 597,404 597,372 562,368 380,369 361,384 71,373"/>
+                <Baseline points="76,394 102,396 128,397 154,397 180,397 206,397 232,397 259,397 285,396 311,396 337,396 363,395 389,396 415,394 442,394 468,395 494,395 520,397 546,397 572,398 599,400"/>
+                <TextEquiv>
+                    <Unicode>_לאחר חפירה אחרונה זו סתמתי סופות את הקבר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="38,430 114,447 231,422 653,429 653,381 565,406 38,404"/>
+                <Baseline points="43,426 73,422 104,423 134,425 165,425 196,423 226,422 257,422 287,421 318,420 349,419 379,419 410,416 440,416 471,417 502,419 532,420 563,421 593,420 624,419 655,420"/>
+                <TextEquiv>
+                    <Unicode>ונספחיו, בעזרת שפך ממערב ודרום וקצת ממזרח (מעל הפיר).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="216,460 396,445 487,462 524,448 650,457 650,427 629,421 216,428"/>
+                <Baseline points="221,448 246,447 271,446 297,446 322,444 347,444 373,444 398,444 423,444 449,444 474,444 499,445 525,446 550,448 575,447 601,446 626,445 652,446"/>
+                <TextEquiv>
+                    <Unicode>נשאר הרבה שפך, בעיקר בדרןם וגם בצפון.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="75,476 656,485 656,457 587,447 472,464 425,445 75,455"/>
+                <Baseline points="80,475 108,473 137,473 166,473 195,474 224,475 253,474 282,474 311,473 340,472 369,472 397,470 426,472 455,473 484,474 513,475 542,476 571,475 600,475 629,475 658,476"/>
+                <TextEquiv>
+                    <Unicode>30/I/1970 ליד החלק הדרום-מזרחי (של החדר המערבי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="53,516 652,507 652,487 473,474 53,475"/>
+                <Baseline points="58,503 87,502 117,502 147,500 177,500 207,501 236,501 266,500 296,500 326,499 356,498 385,497 415,498 445,499 475,500 505,502 534,503 564,503 594,504 624,504 654,504"/>
+                <TextEquiv>
+                    <Unicode>שחפירתו נסתמה) נמצא חרוז לא מהסוג של יתר החרוזים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="46,556 647,538 654,505 537,522 450,501 46,514"/>
+                <Baseline points="51,539 81,538 111,537 141,534 171,534 202,533 232,533 262,533 292,534 322,529 353,529 383,528 413,527 443,527 473,528 504,527 534,528 564,529 594,528 624,528 655,527"/>
+                <TextEquiv>
+                    <Unicode>מחדר זה. צורתו בצורת חבית והוא עשוי אבן ורודה.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="68,571 649,561 649,536 552,530 69,558"/>
+                <Baseline points="73,569 101,570 130,570 159,569 188,569 217,569 246,568 275,566 304,566 333,565 362,561 390,560 419,558 448,557 477,555 506,555 535,556 564,557 593,558 622,559 651,562"/>
+                <TextEquiv>
+                    <Unicode>מידות:  ארך 15 מ"מ, רחב 11 מ"מ). יש עליו גיר לבן והחריר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="53,605 648,596 621,560 54,574"/>
+                <Baseline points="58,600 87,599 117,598 146,596 176,596 206,595 235,595 265,592 294,592 324,591 354,590 383,589 413,586 442,585 472,583 502,584 531,584 561,585 590,588 620,588 650,588"/>
+                <TextEquiv>
+                    <Unicode>היה ממולא אדמה לבנה, כך שאין ספק שמקורו בקבר, אך מאחר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="116,646 640,624 651,597 449,587 424,609 117,611"/>
+                <Baseline points="75,633 147,631 174,630 200,627 227,625 253,623 280,622 306,622 333,622 359,622 386,621 413,619 439,619 466,619 492,619 519,618 545,619 572,618 598,618 625,618 652,618"/>
+                <TextEquiv>
+                    <Unicode>והוא נמצא יחסית קרוב לחדר המזרחי ומאחר ונמצאו (בשפך</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l" custom="readingOrder {index:21;}">
+                <Coords points="47,649 138,645 142,644 135,615 134,615 46,619"/>
+                <Baseline points="47,649 138,645 142,644"/>
+                <TextEquiv>
+                    <Unicode>ב1 10/XII/68)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_24" custom="readingOrder {index:22;}">
+                <Coords points="126,667 428,646 652,655 652,622 602,618 127,646"/>
+                <Baseline points="69,666 157,658 184,654 210,653 236,652 262,651 288,649 314,649 340,649 366,647 393,646 419,646 445,645 471,645 497,645 523,644 549,644 575,644 601,644 627,645 654,647"/>
+                <TextEquiv>
+                    <Unicode>של החדר המז. לא רחוק ממקום החרוז הנוכחי) שני חרוזים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_26" custom="readingOrder {index:23;}">
+                <Coords points="57,706 166,689 262,705 360,673 650,689 642,651 546,645 58,676"/>
+                <Baseline points="63,686 92,687 121,685 151,685 180,683 210,682 239,680 269,675 298,673 328,673 357,673 386,672 416,670 445,670 475,670 504,669 534,670 563,672 593,673 622,674 652,677"/>
+                <TextEquiv>
+                    <Unicode>שדומים קצת בצורתם (אך הרבה יותר קטנים ןעדינים) לנוכחי, יתכן</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_27" custom="readingOrder {index:24;}">
+                <Coords points="310,699 539,702 564,716 639,718 646,688 511,671 481,683 309,677"/>
+                <Baseline points="300,702 340,698 366,698 392,698 417,699 443,698 469,699 494,699 520,699 546,700 571,703 597,705 623,707 649,709"/>
+                <TextEquiv>
+                    <Unicode>שהחרוז החדש בא מהחדר המזרחי.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_28" custom="readingOrder {index:25;}">
+                <Coords points="107,733 649,750 649,718 490,700 106,703"/>
+                <Baseline points="61,730 140,728 168,728 197,727 225,726 253,724 282,724 310,726 338,726 367,728 395,729 424,730 452,729 480,730 509,730 537,731 565,731 594,734 622,735 651,736"/>
+                <TextEquiv>
+                    <Unicode>23/V/1970 יש להביא בחשבון אפשרות שהחרוז הנ"ל</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_29" custom="readingOrder {index:26;}">
+                <Coords points="146,774 278,761 671,769 666,747 330,734 319,744 262,732 145,740"/>
+                <Baseline points="62,761 176,752 203,752 229,753 256,752 283,753 309,752 336,751 363,752 389,754 416,754 657,766"/>
+                <TextEquiv>
+                    <Unicode>(מ-30/I/70) (וכן השניים מהחדר המזרחי) מקורם בקבר XI.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_31" custom="readingOrder {index:27;}">
+                <Coords points="204,800 239,802 265,789 360,800 378,787 404,790 403,768 373,762 203,769"/>
+                <Baseline points="65,796 236,788 265,784 294,788 322,789 349,785 377,786 651,799"/>
+                <TextEquiv>
+                    <Unicode>א(תקופת הברזל I) ? אך האם החרוזים משכבה III</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:28;}">
+                <Coords points="355,814 649,819 650,789 356,784"/>
+                <Baseline points="355,814 649,819"/>
+                <TextEquiv>
+                    <Unicode>(תקופת MBI) של קבר XI.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

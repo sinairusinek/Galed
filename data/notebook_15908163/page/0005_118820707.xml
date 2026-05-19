@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.35.0:model_id=396997:lm=provided:date=05_01_2026_18:08</Creator>
+        <Created>2025-12-03T18:25:50.836+01:00</Created>
+        <LastChange>2026-01-11T08:45:48.414+01:00</LastChange>
+        <TranskribusMetadata docId="12663508" pageId="107452997" pageNr="6" status="GT" userId="2180" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=KTOKXBWCHUSTEOJAAZKLZJXQ" imageId="90283009"/>
+    </Metadata>
+    <Page imageFilename="107452997.jpg" imageWidth="689" imageHeight="919">
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="58,105 58,870 660,870 660,105"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="53,159 626,129 627,92 588,85 391,106 315,85 119,117 55,101"/>
+                <Baseline points="58,148 86,146 115,145 143,145 172,143 200,141 229,141 257,138 286,138 314,138 343,137 371,138 400,136 428,135 457,134 485,134 514,134 542,133 571,129 599,127 628,125"/>
+                <TextEquiv>
+                    <Unicode>כ47 ק IX ח. מע. אתמול 14/VII/1972 המשכתי בחשיפת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="54,177 636,161 637,125 570,123 55,157"/>
+                <Baseline points="60,171 88,168 117,168 146,168 175,167 204,165 233,164 262,163 291,161 320,163 349,163 377,163 406,160 435,158 464,157 493,158 522,158 551,157 580,156 609,155 638,155"/>
+                <TextEquiv>
+                    <Unicode>הראש של הנקבר האחרון (שכבה I) הצמוד לאמצע(~) הדפן הצפ.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="57,213 153,193 269,207 324,186 604,183 634,180 635,157 58,176"/>
+                <Baseline points="62,199 90,196 119,195 148,192 176,191 205,189 234,188 262,189 291,187 320,186 349,186 377,184 406,183 435,181 463,181 492,181 521,181 549,179 578,177 607,176 636,178"/>
+                <TextEquiv>
+                    <Unicode>של החדר. התברר שבדפן (?) יש במקום זה, או חור לחדר הצפוני</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="114,218 558,217 634,207 635,184 114,205"/>
+                <Baseline points="119,217 144,215 170,215 196,214 222,212 248,212 274,212 299,210 325,210 351,209 377,209 403,207 429,205 455,204 480,204 506,204 532,206 558,205 584,202 610,202 636,203"/>
+                <TextEquiv>
+                    <Unicode>או כוך קטן, או שאולי הדפן בכללה נמצאת יותר צפונה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="67,256 638,228 635,202 69,228"/>
+                <Baseline points="73,244 101,245 129,246 157,245 186,242 214,239 242,237 271,237 299,236 327,235 356,234 384,233 412,230 440,230 469,229 497,228 525,227 554,227 582,225 610,224 639,225"/>
+                <TextEquiv>
+                    <Unicode>והראש כלל לא נשען אליה. מכל מקום יש מאחורי (צפונה) הראש</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="54,288 207,263 635,260 636,226 616,225 56,250"/>
+                <Baseline points="60,275 88,269 117,269 146,268 175,264 204,263 233,262 261,261 290,258 319,257 348,258 377,256 406,255 435,255 463,255 492,256 521,257 550,256 579,255 608,254 637,252"/>
+                <TextEquiv>
+                    <Unicode>רק אדמה חומה ואבנים (גם חתיכות של ה"סלע" הלבן), מכל מקום</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="67,302 637,282 637,261 594,259 68,277"/>
+                <Baseline points="72,286 100,290 128,289 156,288 185,286 213,286 241,286 270,283 298,282 326,281 355,281 383,281 411,279 439,279 468,280 496,280 524,281 553,281 581,279 609,278 638,279"/>
+                <TextEquiv>
+                    <Unicode>מתברר שהראש (שהיה נראה מורם במקצת, לא ממש שוכב)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="59,327 635,309 636,279 60,298"/>
+                <Baseline points="64,317 92,317 121,318 149,315 178,314 207,312 235,311 264,310 293,306 321,305 350,307 379,306 407,306 436,306 465,305 493,303 522,301 551,302 579,300 608,299 637,300"/>
+                <TextEquiv>
+                    <Unicode>לא נשען אל הדפן כפי שחשבתי כל הזמן. מעל הראש (נראה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="67,349 609,334 637,330 638,308 68,322"/>
+                <Baseline points="72,344 100,343 128,342 157,341 185,336 213,336 242,335 270,334 298,331 327,330 355,330 383,330 412,328 440,328 468,326 497,327 525,326 553,327 582,326 610,325 639,326"/>
+                <TextEquiv>
+                    <Unicode>שזו מפולת שנכנסה לכאן בשעת התמוטטות התקרה) נמצאה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="63,378 638,359 639,328 64,348"/>
+                <Baseline points="68,366 96,366 125,367 153,367 182,366 210,364 239,363 267,361 296,357 324,355 353,354 382,353 410,353 439,352 467,352 496,351 524,352 553,353 581,351 610,351 639,352"/>
+                <TextEquiv>
+                    <Unicode>עוד אבן (מאבן גיר מהסוג הרגיל באיזור) עם חרפה מסותתת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="63,392 643,381 640,359 406,355 64,377"/>
+                <Baseline points="68,389 96,390 125,389 154,387 183,385 212,384 240,383 269,382 298,382 327,379 356,380 384,380 413,380 442,380 471,379 500,380 528,380 557,380 586,379 615,378 644,375"/>
+                <TextEquiv>
+                    <Unicode>הפעם בצורה ברורה, גם עם "בסיס" מעובד קצת. גדל האבן</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="55,430 268,403 645,400 638,380 56,389"/>
+                <Baseline points="60,411 89,413 118,412 147,410 177,406 206,405 235,402 265,400 294,398 323,399 353,402 382,400 411,400 440,397 470,395 499,396 528,398 558,398 587,398 616,397 646,398"/>
+                <TextEquiv>
+                    <Unicode>8X13X16 ס"מ (החרפה בקצה הציר הארוך, כמו בגרזן, למשל)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="67,442 640,424 627,398 482,395 68,416"/>
+                <Baseline points="72,435 100,434 129,433 157,430 186,428 214,426 243,423 271,423 300,423 328,424 357,423 385,422 414,421 442,420 471,420 499,419 528,420 556,420 585,419 613,418 642,416"/>
+                <TextEquiv>
+                    <Unicode>יש בה הבדלי פטינה ברורים, בין החלק המסותת והיתר. הפעם</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="70,469 647,448 647,425 514,420 71,445"/>
+                <Baseline points="75,460 103,459 132,458 161,456 189,453 218,450 247,451 275,451 304,450 333,449 362,448 390,445 419,444 448,444 476,448 505,443 534,443 562,443 591,443 620,442 649,442"/>
+                <TextEquiv>
+                    <Unicode>אספתי את האבן אם כי אין לדעת אם היא שייכת לקבר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="309,475 395,481 554,466 648,480 640,445 501,446 481,458 310,451"/>
+                <Baseline points="73,488 339,469 365,468 391,468 417,468 443,468 469,468 494,468 520,467 546,466 572,466 598,466 624,467 650,472"/>
+                <TextEquiv>
+                    <Unicode>ואם היא התגלגלה לכאן מאתר 8,17 הסמוך. ככלי, לחציבת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l" custom="readingOrder {index:15;}">
+                <Coords points="310,481 362,482 363,452 311,451"/>
+                <Baseline points="310,481 362,482"/>
+                <TextEquiv>
+                    <Unicode>מאידך</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="89,513 178,526 292,497 644,501 624,470 554,466 90,493"/>
+                <Baseline points="94,508 121,508 149,509 176,507 204,504 232,502 259,501 287,496 314,497 342,499 370,497 397,495 425,492 452,492 480,491 508,491 535,491 563,491 590,491 618,492 646,497"/>
+                <TextEquiv>
+                    <Unicode>קברים, היא מגושמת מאוד, אך מזה שנים רבות נדמה לי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:17;}">
+                <Coords points="273,511 312,510 311,480 272,481"/>
+                <Baseline points="273,511 312,510"/>
+                <TextEquiv>
+                    <Unicode>מנהג</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="83,541 645,532 645,500 84,516"/>
+                <Baseline points="88,531 117,530 146,530 176,531 205,526 235,526 264,524 293,528 323,522 352,521 382,522 411,522 441,522 470,522 499,521 529,522 558,522 588,522 617,520 647,523"/>
+                <TextEquiv>
+                    <Unicode>שבתקופות קדומות שונות היה קיים לסתת (אולי כמנהג</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="77,571 649,552 641,531 502,526 78,545"/>
+                <Baseline points="82,562 110,560 138,560 167,559 195,559 224,556 252,554 281,554 309,554 338,552 366,552 394,552 423,551 451,550 480,549 508,549 537,547 565,546 594,545 622,545 651,547"/>
+                <TextEquiv>
+                    <Unicode>בשעת הקבורה ??) אבנים בקברים. מאידך, בקשר ל 8,17</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="137,602 456,578 639,586 639,551 585,546 254,557 203,575 138,563"/>
+                <Baseline points="142,587 168,584 194,584 220,584 247,582 273,581 299,581 325,581 352,581 378,580 404,578 430,578 457,577 483,576 509,575 535,575 562,574 588,575 614,573 641,572"/>
+                <TextEquiv>
+                    <Unicode>יצויין שנמצא גם (בחור[?] שבדופן [?]) חרס קטן של 8,17.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="94,623 627,608 617,576 374,582 310,604 95,593"/>
+                <Baseline points="99,620 125,618 152,616 178,614 205,614 231,613 258,613 284,612 311,612 337,609 364,608 390,606 417,605 443,605 470,604 496,602 523,601 549,600 576,598 602,597 629,599"/>
+                <TextEquiv>
+                    <Unicode>יצויין שהראש מחוץ למדי, לצערי. – הוצאתי את הלסת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="68,660 409,632 621,644 610,607 70,618"/>
+                <Baseline points="74,643 101,643 129,642 156,642 184,641 211,639 239,639 266,639 294,638 321,636 349,635 376,635 404,632 431,631 459,630 486,630 514,629 541,628 569,628 596,628 624,629"/>
+                <TextEquiv>
+                    <Unicode>התחתונה, חוליות הצואר, עצם הבריח השמאלי (וליד עוד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="82,678 575,665 619,637 83,655"/>
+                <Baseline points="87,673 113,669 140,669 166,669 193,667 220,666 246,667 273,666 300,663 326,662 353,659 380,658 406,655 433,654 460,654 486,654 513,653 540,652 566,653 593,653 620,651"/>
+                <TextEquiv>
+                    <Unicode>חלק מה scapula השמאלית). הלסת התחתונה היא (כפי שכבר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_25" custom="readingOrder {index:24;}">
+                <Coords points="64,712 431,681 458,700 652,689 653,651 66,680"/>
+                <Baseline points="70,699 99,698 128,698 157,697 186,693 216,694 245,691 274,689 303,688 332,688 362,684 391,682 420,681 449,681 478,682 508,681 537,681 566,680 595,681 624,681 654,682"/>
+                <TextEquiv>
+                    <Unicode>צויין) כנראה של אישה. השתמרו כל 16 השיניים והן שחוקות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_26" custom="readingOrder {index:25;}">
+                <Coords points="60,744 210,719 564,730 653,718 654,689 456,701 430,681 61,708"/>
+                <Baseline points="65,734 94,731 124,728 153,724 183,722 212,718 242,714 271,716 301,714 330,713 360,712 389,712 419,713 448,713 478,713 507,713 537,712 566,711 596,710 625,708 655,706"/>
+                <TextEquiv>
+                    <Unicode>אך מעט, באחת מהן חור גדול מרקבון שיניים. ה atlas כנראה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_27" custom="readingOrder {index:26;}">
+                <Coords points="79,768 651,753 639,717 186,721 80,743"/>
+                <Baseline points="85,760 113,755 141,753 170,750 198,747 227,745 255,744 283,743 312,743 340,740 369,738 397,738 425,737 454,738 482,739 511,740 539,739 567,740 596,740 624,740 653,742"/>
+                <TextEquiv>
+                    <Unicode>לא תקין, כנראה שהוא היה פתוח (ז.א. להיה עיגול שלם!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_28" custom="readingOrder {index:27;}">
+                <Coords points="98,790 372,770 647,780 654,750 98,768"/>
+                <Baseline points="103,788 130,783 158,781 185,777 213,778 241,776 268,775 296,775 323,774 351,772 379,769 406,769 434,768 461,767 489,768 517,768 544,768 572,768 599,768 627,768 655,769"/>
+                <TextEquiv>
+                    <Unicode>מהבריח (השמאלי) נמצא רק חצי, כמו בימני ! – נמצא</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_29" custom="readingOrder {index:28;}">
+                <Coords points="60,820 486,792 657,805 658,778 105,792 61,776"/>
+                <Baseline points="65,808 94,805 124,804 154,803 183,802 213,801 243,800 272,800 302,797 332,798 362,797 391,795 421,792 451,792 480,792 510,791 540,791 569,793 599,794 629,798 659,802"/>
+                <TextEquiv>
+                    <Unicode>(בזמן שטיפת העצמות, את החוליות הבאתי הביתה עם הרבה אדמה מסביבה)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_30" custom="readingOrder {index:29;}">
+                <Coords points="63,834 655,825 642,802 498,792 64,817"/>
+                <Baseline points="68,828 97,828 127,828 156,826 186,824 215,822 245,821 274,821 304,820 333,820 363,818 392,816 422,815 451,815 481,814 510,814 540,813 569,815 599,816 628,820 658,822"/>
+                <TextEquiv>
+                    <Unicode>חרוז (מס' 5505 !)(מאותו סוג דסקי, לבן כמו אלה סביב האגן) בין חוליות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_31" custom="readingOrder {index:30;}">
+                <Coords points="138,851 512,833 656,846 656,825 535,815 139,830"/>
+                <Baseline points="74,852 169,845 195,842 221,842 246,839 272,840 298,839 323,836 349,838 375,836 401,835 426,833 452,832 478,833 503,832 529,832 555,833 580,834 606,837 632,836 658,838"/>
+                <TextEquiv>
+                    <Unicode>הצואר (חרוז קטן, 55 מ"מ קטר) ואם כי יתכן שהועבר לכאן על ידי בעל חי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_33" custom="readingOrder {index:31;}">
+                <Coords points="83,874 502,871 503,836 478,833 142,852 84,839"/>
+                <Baseline points="81,869 114,863 141,860 167,859 193,858 219,856 245,855 271,855 297,855 323,855 349,853 375,852 401,852 427,851 453,850 479,850 666,859"/>
+                <TextEquiv>
+                    <Unicode>יתכן גם שזהו שריד של מחרוזת, שרובה היתה עשויה מחרוזים מחמר אורגני.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

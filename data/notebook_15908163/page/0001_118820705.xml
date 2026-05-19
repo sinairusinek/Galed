@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.35.0:model_id=399677:lm=provided:date=01_01_2026_10:52</Creator>
+        <Created>2025-12-03T18:25:50.175+01:00</Created>
+        <LastChange>2026-01-02T09:28:47.368+01:00</LastChange>
+        <TranskribusMetadata docId="12663508" pageId="107452900" pageNr="1" status="FINAL" userId="2180" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=SVKRQRDFUJLKTODGCWWMRUEY" imageId="90283030"/>
+    </Metadata>
+    <Page imageFilename="107452900.jpg" imageWidth="689" imageHeight="919">
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="18,70 34,725 646,725 646,70"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="58,110 379,94 503,112 642,93 643,58 59,57"/>
+                <Baseline points="63,105 91,103 120,102 149,102 178,102 207,99 235,98 264,98 293,98 322,97 351,96 379,97 408,96 437,97 466,97 495,97 523,95 552,93 581,92 610,90 644,90"/>
+                <TextEquiv>
+                    <Unicode>כרם 1947. קבר VIII. חדר מערבי. 1969/VII/25 (המשך)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="18,133 642,134 637,92 503,113 139,103 89,122 19,105"/>
+                <Baseline points="23,132 65,133 96,135 126,134 157,133 187,131 218,129 248,129 279,132 309,132 340,130 370,128 401,127 431,126 462,126 492,126 523,124 553,123 584,122 614,124 645,122"/>
+                <TextEquiv>
+                    <Unicode>קטעי סלע אלה העשוים סלע פריך ביותר (מתפצל ל״דפים")</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="29,171 447,148 635,163 642,134 30,134"/>
+                <Baseline points="34,161 64,160 94,161 125,159 155,157 186,154 216,153 247,152 277,153 308,153 338,152 368,152 399,151 429,149 460,148 490,149 521,149 551,150 582,151 612,152 643,157"/>
+                <TextEquiv>
+                    <Unicode>מופיעים פחות או יותר באותו מפלס בכל המקמות (בצפ ובמע</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="37,194 591,186 642,162 37,170"/>
+                <Baseline points="42,188 72,186 102,186 132,184 162,181 192,180 222,179 252,179 282,180 312,180 342,177 372,176 402,176 432,175 462,174 492,175 522,174 552,175 582,175 612,174 643,174"/>
+                <TextEquiv>
+                    <Unicode>הבדיקה), אך אינם מהווים שכבה רצופה ממש. קשה מאוד להסביר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="58,218 623,213 643,179 58,194"/>
+                <Baseline points="63,211 92,209 121,208 150,206 179,204 208,204 237,203 266,204 295,205 324,203 353,201 382,201 411,199 440,199 469,198 498,201 527,201 556,199 585,197 614,197 644,197"/>
+                <TextEquiv>
+                    <Unicode>את התופעה; לא יתכן שאלה קטעי סלע שמישהו שם כאן כי הם</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="35,241 535,242 640,230 641,207 35,213"/>
+                <Baseline points="40,236 70,234 100,233 130,233 160,230 190,229 220,230 250,230 280,230 310,230 341,228 371,228 401,227 431,225 461,227 491,227 521,227 551,225 581,225 611,222 642,225"/>
+                <TextEquiv>
+                    <Unicode>כל כך מתפצלים שהדבר לא יתכן, שכבת הסלע היא דקה מאוד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_7" custom="readingOrder {index:6;} abbrev {offset:0;length:8;}">
+                <Coords points="35,282 149,261 645,258 645,230 540,226 36,244"/>
+                <Baseline points="40,264 70,263 100,261 130,259 161,258 191,257 221,257 252,256 282,255 312,255 343,256 373,252 403,251 433,252 464,251 494,249 524,249 555,248 585,247 615,250 646,252"/>
+                <TextEquiv>
+                    <Unicode>10.2 ס״מ?). נראה שקדם חפרו תחתה, אחר כך מלאו תחתה באבנים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="47,301 637,283 637,260 605,249 47,279"/>
+                <Baseline points="52,291 81,288 110,287 140,286 169,283 198,283 228,282 257,281 286,280 316,277 345,280 374,277 404,277 433,275 462,277 492,277 521,276 550,275 580,275 609,276 639,277"/>
+                <TextEquiv>
+                    <Unicode>בגלל חסר היציבות ואני נאלץ להניח שאחר כך חפרו מלמעלה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="37,322 643,303 643,279 524,277 38,294"/>
+                <Baseline points="42,315 72,313 102,311 132,309 162,307 192,306 222,305 253,305 283,306 313,306 343,305 373,307 403,307 433,305 464,304 494,302 524,300 554,300 584,300 614,298 645,297"/>
+                <TextEquiv>
+                    <Unicode>הסירו כמעט את הכל (מלבד קטעי הסלע המסתורים הנידונים) ומלאו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="50,346 377,347 635,326 644,306 51,324"/>
+                <Baseline points="55,343 84,342 114,338 143,336 173,332 202,333 232,330 261,331 291,332 320,333 350,333 380,333 409,330 439,329 468,329 498,325 527,322 557,322 586,321 616,320 646,318"/>
+                <TextEquiv>
+                    <Unicode>מעליהם באבנים. כל זה מקבל משמעות רק אם נניח שרצו לחצוב</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="48,370 640,357 641,326 48,346"/>
+                <Baseline points="53,364 82,364 112,363 141,361 171,361 200,360 230,358 259,358 289,358 318,360 348,360 377,360 407,359 436,357 466,355 495,351 525,349 554,349 584,346 613,346 643,345"/>
+                <TextEquiv>
+                    <Unicode>חדר קבורה יותר גבול (כזכור החדר המערבי היה קטן בהשואה יותר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="35,395 564,394 641,357 36,371"/>
+                <Baseline points="40,392 70,391 100,392 130,391 160,390 190,390 220,388 250,387 280,388 310,388 340,388 370,387 400,384 430,384 460,382 490,381 520,379 550,376 580,374 610,374 641,373"/>
+                <TextEquiv>
+                    <Unicode>חדרי קבר VIII) והפסיקו בגלל חוסר יציבות (ומלאו באבנים משכבר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="37,433 640,402 622,374 565,394 37,396"/>
+                <Baseline points="42,417 77,413 107,412 137,411 166,413 196,413 226,412 255,412 285,412 315,411 345,411 374,407 404,407 434,407 463,406 493,405 523,405 552,405 582,402 612,399 642,398"/>
+                <TextEquiv>
+                    <Unicode>חצבו). - בבור הבדיקה שחפרתי לא נמצאה דפן סלע באף צד;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="45,447 640,437 629,403 46,427"/>
+                <Baseline points="50,442 79,439 109,439 138,437 168,437 197,438 227,438 256,437 286,436 315,434 345,433 375,430 404,430 434,431 463,431 493,431 522,430 552,429 581,427 611,426 641,428"/>
+                <TextEquiv>
+                    <Unicode>ז"א המצב המתואר לעיל אינו מוגבל רק לבור שחפרתי. – אבנים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="44,470 638,462 638,439 606,430 44,447"/>
+                <Baseline points="49,462 78,465 108,464 137,460 167,460 196,460 226,459 255,460 285,460 314,459 344,458 373,456 403,455 432,456 462,457 491,457 521,457 550,458 580,457 609,458 639,458"/>
+                <TextEquiv>
+                    <Unicode>גבולות מצאתי עד לעמק של כ-80 ס״מ, אחר כך הופיעה אדמה חומה-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="44,494 634,485 634,465 593,459 44,470"/>
+                <Baseline points="49,489 78,487 107,487 137,487 166,485 195,484 225,487 254,487 283,485 313,484 342,483 371,484 401,484 430,483 459,483 489,483 518,483 547,485 577,483 606,482 636,483"/>
+                <TextEquiv>
+                    <Unicode>-אפורה (לא ה״אבקה״ בצבע דומה המופיעה לעיתים בקברות) ואחר כך</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="51,523 623,514 637,485 51,492"/>
+                <Baseline points="56,516 85,514 114,515 143,513 172,512 201,511 230,509 259,511 288,511 317,512 347,511 376,508 405,508 434,507 463,507 492,508 521,508 550,510 579,510 608,511 638,510"/>
+                <TextEquiv>
+                    <Unicode>מופיע משנראה להיות מרבץ טבעי (deposit של ואדי?) לא סלע</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="60,542 635,540 635,512 600,511 60,524"/>
+                <Baseline points="65,537 93,535 122,534 150,533 179,532 208,529 236,529 265,531 293,531 322,533 351,534 379,533 408,533 436,531 465,531 494,531 522,533 551,533 579,534 608,534 637,533"/>
+                <TextEquiv>
+                    <Unicode>אך גם לא חלוקים; במרבץ זה כתמים (לא גושי סלע) לבנים ואבנים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="46,557 632,570 632,540 524,533 46,537"/>
+                <Baseline points="51,552 80,554 109,555 138,554 167,554 196,552 225,551 255,552 284,552 313,553 342,553 371,554 400,554 429,554 459,557 488,556 517,557 546,557 575,558 604,557 634,557"/>
+                <TextEquiv>
+                    <Unicode>קטנות (לא חלוקים). בתוך החומר הזה היה גם פס קהה, רך לחפירה, כנראה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="43,587 635,590 621,565 43,565"/>
+                <Baseline points="48,582 77,580 106,577 136,575 165,576 195,576 224,576 254,577 283,577 313,579 342,581 371,582 401,583 430,583 460,584 489,582 519,582 548,582 578,584 607,583 637,585"/>
+                <TextEquiv>
+                    <Unicode>עבודה״ של מכרסם. הפסקתי לחפור בעמק של 1 מ׳ (+15 ס״מ במקום</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="39,618 636,613 636,590 577,584 39,586"/>
+                <Baseline points="44,607 73,606 103,606 133,603 162,603 192,604 222,604 251,605 281,605 311,606 341,608 370,609 400,611 430,611 459,611 489,607 519,607 548,607 578,608 608,609 638,612"/>
+                <TextEquiv>
+                    <Unicode>של מחילת המכרסם) ולאחר שבכל שטח הבור הופיע חומר זה, הנראה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="39,643 635,638 613,611 38,620"/>
+                <Baseline points="44,632 73,632 103,632 132,632 162,629 192,627 221,628 251,628 281,629 310,630 340,634 370,634 399,636 429,636 459,637 488,637 518,637 548,636 577,636 607,635 637,634"/>
+                <TextEquiv>
+                    <Unicode>טבעי ולא נגעה בו ככל הנראה יד אדם - בכל החפירה של אתמול</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_24" custom="readingOrder {index:22;}">
+                <Coords points="372,665 629,681 629,639 542,641 526,650 484,639 445,651 425,637 371,637"/>
+                <Baseline points="360,659 402,659 427,660 453,660 478,661 504,661 529,661 554,662 580,662 605,663 631,665"/>
+                <TextEquiv>
+                    <Unicode>לא הופיעו ממצאים כלשהם.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_23" custom="readingOrder {index:23;} unclear {offset:0;length:33;continued:true;}">
+                <Coords points="49,659 101,667 201,652 288,665 309,650 336,663 360,655 360,636 297,630 279,641 262,629 241,640 49,637"/>
+                <Baseline points="54,654 108,650 134,649 160,649 185,649 211,649 362,650"/>
+                <TextEquiv>
+                    <Unicode>איך יכולה להיות שכבת סלע מעל מרבץ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l" custom="readingOrder {index:24;} unclear {offset:0;length:4;continued:true;}">
+                <Coords points="261,670 270,671 279,667 293,671 298,669 308,671 312,667 328,670 328,651 316,652 312,650 295,655 284,655 279,650 261,653"/>
+                <Baseline points="266,666 330,666 327,665"/>
+                <TextEquiv>
+                    <Unicode>נחל?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_25" custom="readingOrder {index:25;}">
+                <Coords points="45,692 602,695 592,673 430,675 354,655 308,671 44,666"/>
+                <Baseline points="49,682 76,681 104,681 132,681 160,680 187,678 215,679 243,680 271,681 298,683 326,682 354,683 382,683 409,683 437,684 465,685 493,685 520,685 548,686 576,687 604,689"/>
+                <TextEquiv>
+                    <Unicode>אחרי סיום חפירת הבדיקה המשכתי בסתימת חדר הקבורה,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_26" custom="readingOrder {index:26;}">
+                <Coords points="114,705 195,722 252,706 633,721 633,679 580,695 114,689"/>
+                <Baseline points="119,703 144,700 170,701 196,702 222,703 248,704 273,705 299,706 325,706 351,706 377,705 402,705 428,706 454,706 480,707 506,708 531,707 557,707 583,708 609,710 635,715"/>
+                <TextEquiv>
+                    <Unicode>הפעם עם חמר מדרום ודר.-מז. לחדר. לא היו שם ממצאים.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
