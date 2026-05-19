@@ -1,0 +1,161 @@
+{
+  "colId": 2388662,
+  "docId": 15642625,
+  "docTitle": "חירבת אל ערייס הצפונית - 2",
+  "pages": [
+    {
+      "pageNr": 1,
+      "pageId": 117919997,
+      "tsId": 285075971,
+      "file": "0001_117919997.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 2,
+      "pageId": 117920108,
+      "tsId": 284334389,
+      "file": "0002_117920108.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 3,
+      "pageId": 117919998,
+      "tsId": 284334390,
+      "file": "0003_117919998.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 4,
+      "pageId": 117919999,
+      "tsId": 284334391,
+      "file": "0004_117919999.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 5,
+      "pageId": 117920109,
+      "tsId": 284334392,
+      "file": "0005_117920109.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 6,
+      "pageId": 117920000,
+      "tsId": 284334393,
+      "file": "0006_117920000.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 7,
+      "pageId": 117920110,
+      "tsId": 284334394,
+      "file": "0007_117920110.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 8,
+      "pageId": 117920261,
+      "tsId": 284334395,
+      "file": "0008_117920261.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 9,
+      "pageId": 117920111,
+      "tsId": 284334396,
+      "file": "0009_117920111.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 10,
+      "pageId": 117920262,
+      "tsId": 284334397,
+      "file": "0010_117920262.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 11,
+      "pageId": 117920112,
+      "tsId": 284334399,
+      "file": "0011_117920112.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 12,
+      "pageId": 117920263,
+      "tsId": 284334400,
+      "file": "0012_117920263.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 13,
+      "pageId": 117920113,
+      "tsId": 284334401,
+      "file": "0013_117920113.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 14,
+      "pageId": 117920264,
+      "tsId": 284334402,
+      "file": "0014_117920264.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 15,
+      "pageId": 117920114,
+      "tsId": 284334403,
+      "file": "0015_117920114.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 16,
+      "pageId": 117920115,
+      "tsId": 284334404,
+      "file": "0016_117920115.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 17,
+      "pageId": 117920116,
+      "tsId": 284334406,
+      "file": "0017_117920116.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 18,
+      "pageId": 117920265,
+      "tsId": 284334407,
+      "file": "0018_117920265.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 19,
+      "pageId": 117920117,
+      "tsId": 284334409,
+      "file": "0019_117920117.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 20,
+      "pageId": 117920266,
+      "tsId": 284334410,
+      "file": "0020_117920266.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 21,
+      "pageId": 117920118,
+      "tsId": 284334411,
+      "file": "0021_117920118.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 22,
+      "pageId": 117920267,
+      "tsId": 284334412,
+      "file": "0022_117920267.xml",
+      "status": "NEW"
+    }
+  ]
+}

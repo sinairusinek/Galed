@@ -1,0 +1,546 @@
+{
+  "colId": 2388662,
+  "docId": 15642626,
+  "docTitle": "חירבת אל ערייס הצפונית - 1",
+  "pages": [
+    {
+      "pageNr": 1,
+      "pageId": 117920268,
+      "tsId": 285073276,
+      "file": "0001_117920268.xml",
+      "status": "DONE"
+    },
+    {
+      "pageNr": 2,
+      "pageId": 117920119,
+      "tsId": 285073290,
+      "file": "0002_117920119.xml",
+      "status": "DONE"
+    },
+    {
+      "pageNr": 3,
+      "pageId": 117920269,
+      "tsId": 285466194,
+      "file": "0003_117920269.xml",
+      "status": "DONE"
+    },
+    {
+      "pageNr": 4,
+      "pageId": 117920120,
+      "tsId": 285467022,
+      "file": "0004_117920120.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 5,
+      "pageId": 117920270,
+      "tsId": 286002067,
+      "file": "0005_117920270.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 6,
+      "pageId": 117920281,
+      "tsId": 286712903,
+      "file": "0006_117920281.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 7,
+      "pageId": 117920271,
+      "tsId": 286706614,
+      "file": "0007_117920271.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 8,
+      "pageId": 117920282,
+      "tsId": 286707724,
+      "file": "0008_117920282.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 9,
+      "pageId": 117920272,
+      "tsId": 286712530,
+      "file": "0009_117920272.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 10,
+      "pageId": 117920283,
+      "tsId": 287858240,
+      "file": "0010_117920283.xml",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "pageNr": 11,
+      "pageId": 117920273,
+      "tsId": 284334456,
+      "file": "0011_117920273.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 12,
+      "pageId": 117920284,
+      "tsId": 284334458,
+      "file": "0012_117920284.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 13,
+      "pageId": 117920274,
+      "tsId": 284334462,
+      "file": "0013_117920274.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 14,
+      "pageId": 117920275,
+      "tsId": 284334465,
+      "file": "0014_117920275.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 15,
+      "pageId": 117920285,
+      "tsId": 284334469,
+      "file": "0015_117920285.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 16,
+      "pageId": 117920276,
+      "tsId": 284334471,
+      "file": "0016_117920276.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 17,
+      "pageId": 117920286,
+      "tsId": 284334474,
+      "file": "0017_117920286.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 18,
+      "pageId": 117920277,
+      "tsId": 284334476,
+      "file": "0018_117920277.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 19,
+      "pageId": 117920287,
+      "tsId": 284334478,
+      "file": "0019_117920287.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 20,
+      "pageId": 117920288,
+      "tsId": 284334480,
+      "file": "0020_117920288.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 21,
+      "pageId": 117920278,
+      "tsId": 284334482,
+      "file": "0021_117920278.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 22,
+      "pageId": 117920289,
+      "tsId": 284334484,
+      "file": "0022_117920289.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 23,
+      "pageId": 117920132,
+      "tsId": 284334486,
+      "file": "0023_117920132.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 24,
+      "pageId": 117920279,
+      "tsId": 284334544,
+      "file": "0024_117920279.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 25,
+      "pageId": 117920133,
+      "tsId": 284334545,
+      "file": "0025_117920133.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 26,
+      "pageId": 117920280,
+      "tsId": 284334548,
+      "file": "0026_117920280.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 27,
+      "pageId": 117920134,
+      "tsId": 284334549,
+      "file": "0027_117920134.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 28,
+      "pageId": 117920381,
+      "tsId": 284334551,
+      "file": "0028_117920381.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 29,
+      "pageId": 117920135,
+      "tsId": 284334554,
+      "file": "0029_117920135.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 30,
+      "pageId": 117920382,
+      "tsId": 284334556,
+      "file": "0030_117920382.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 31,
+      "pageId": 117920136,
+      "tsId": 284334557,
+      "file": "0031_117920136.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 32,
+      "pageId": 117920383,
+      "tsId": 284334560,
+      "file": "0032_117920383.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 33,
+      "pageId": 117920137,
+      "tsId": 284334561,
+      "file": "0033_117920137.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 34,
+      "pageId": 117920384,
+      "tsId": 284334564,
+      "file": "0034_117920384.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 35,
+      "pageId": 117920138,
+      "tsId": 284334567,
+      "file": "0035_117920138.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 36,
+      "pageId": 117920385,
+      "tsId": 284334568,
+      "file": "0036_117920385.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 37,
+      "pageId": 117920139,
+      "tsId": 284334570,
+      "file": "0037_117920139.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 38,
+      "pageId": 117920386,
+      "tsId": 284334572,
+      "file": "0038_117920386.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 39,
+      "pageId": 117920290,
+      "tsId": 284334575,
+      "file": "0039_117920290.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 40,
+      "pageId": 117920140,
+      "tsId": 284334576,
+      "file": "0040_117920140.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 41,
+      "pageId": 117920291,
+      "tsId": 284334578,
+      "file": "0041_117920291.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 42,
+      "pageId": 117920421,
+      "tsId": 284334581,
+      "file": "0042_117920421.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 43,
+      "pageId": 117920292,
+      "tsId": 284334583,
+      "file": "0043_117920292.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 44,
+      "pageId": 117920293,
+      "tsId": 284334585,
+      "file": "0044_117920293.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 45,
+      "pageId": 117920422,
+      "tsId": 284334587,
+      "file": "0045_117920422.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 46,
+      "pageId": 117920294,
+      "tsId": 284334590,
+      "file": "0046_117920294.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 47,
+      "pageId": 117920423,
+      "tsId": 284334592,
+      "file": "0047_117920423.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 48,
+      "pageId": 117920295,
+      "tsId": 284334594,
+      "file": "0048_117920295.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 49,
+      "pageId": 117920424,
+      "tsId": 284334596,
+      "file": "0049_117920424.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 50,
+      "pageId": 117920425,
+      "tsId": 284334598,
+      "file": "0050_117920425.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 51,
+      "pageId": 117920296,
+      "tsId": 284334600,
+      "file": "0051_117920296.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 52,
+      "pageId": 117920426,
+      "tsId": 284334602,
+      "file": "0052_117920426.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 53,
+      "pageId": 117920297,
+      "tsId": 284334604,
+      "file": "0053_117920297.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 54,
+      "pageId": 117920427,
+      "tsId": 284334606,
+      "file": "0054_117920427.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 55,
+      "pageId": 117920298,
+      "tsId": 284334608,
+      "file": "0055_117920298.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 56,
+      "pageId": 117920428,
+      "tsId": 284334610,
+      "file": "0056_117920428.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 57,
+      "pageId": 117920299,
+      "tsId": 284334612,
+      "file": "0057_117920299.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 58,
+      "pageId": 117920300,
+      "tsId": 284334614,
+      "file": "0058_117920300.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 59,
+      "pageId": 117920429,
+      "tsId": 284334616,
+      "file": "0059_117920429.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 60,
+      "pageId": 117920481,
+      "tsId": 284334618,
+      "file": "0060_117920481.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 61,
+      "pageId": 117920482,
+      "tsId": 284334620,
+      "file": "0061_117920482.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 62,
+      "pageId": 117920430,
+      "tsId": 284334623,
+      "file": "0062_117920430.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 63,
+      "pageId": 117920483,
+      "tsId": 284334625,
+      "file": "0063_117920483.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 64,
+      "pageId": 117920431,
+      "tsId": 284334627,
+      "file": "0064_117920431.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 65,
+      "pageId": 117920484,
+      "tsId": 284334630,
+      "file": "0065_117920484.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 66,
+      "pageId": 117920432,
+      "tsId": 284334632,
+      "file": "0066_117920432.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 67,
+      "pageId": 117920485,
+      "tsId": 284334635,
+      "file": "0067_117920485.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 68,
+      "pageId": 117920486,
+      "tsId": 284334636,
+      "file": "0068_117920486.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 69,
+      "pageId": 117920433,
+      "tsId": 284334638,
+      "file": "0069_117920433.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 70,
+      "pageId": 117920487,
+      "tsId": 284334641,
+      "file": "0070_117920487.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 71,
+      "pageId": 117920434,
+      "tsId": 284334643,
+      "file": "0071_117920434.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 72,
+      "pageId": 117920435,
+      "tsId": 284334645,
+      "file": "0072_117920435.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 73,
+      "pageId": 117920488,
+      "tsId": 284334647,
+      "file": "0073_117920488.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 74,
+      "pageId": 117920436,
+      "tsId": 284334694,
+      "file": "0074_117920436.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 75,
+      "pageId": 117920387,
+      "tsId": 284334696,
+      "file": "0075_117920387.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 76,
+      "pageId": 117920489,
+      "tsId": 284334698,
+      "file": "0076_117920489.xml",
+      "status": "NEW"
+    },
+    {
+      "pageNr": 77,
+      "pageId": 117920437,
+      "tsId": 284334701,
+      "file": "0077_117920437.xml",
+      "status": "NEW"
+    }
+  ]
+}

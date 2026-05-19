@@ -1,69 +1,55 @@
 # Galed
 
-Post-processing pipeline for the transcription of an archaeological notebook
-on Transkribus (collection `2224542`, document `15908163`).
+Post-processing pipeline for the transcription of an archaeological
+field notebook on Transkribus (collection `2224542`, document
+`15908163`), plus the related Khirbat al-Arais North collection
+(`2388662`). The notebook is hand-written Hebrew interleaved with LTR
+runs (Roman numerals for strata, dates, site codes), and the pipeline's
+job is to surface and fix the systematic issues that show up in HTR
+output and in transcriber edits.
 
-## Collaborators
-
-This repository is shared by a small team. Each collaborator uses **their own
-Transkribus account** — credentials are never committed. To get access:
-
-1. Ask the repo owner to add you as a GitHub collaborator (private repo).
-2. Ask the repo owner / collection owner to invite your Transkribus user to
-   collection `2224542` with at least *Transcriber* permission.
-3. Set your own Transkribus credentials in your shell (e.g. `~/.zshrc`):
-
-   ```sh
-   export TRANSKRIBUS_USER='you@example.org'
-   export TRANSKRIBUS_PASS='your-password'
-   ```
-
-   Do **not** put credentials in any file inside this repo. `.env` is
-   gitignored if you prefer that pattern, but env vars in your shell are
-   simpler and what the code expects.
-
-## Transkribus sync
-
-The `code/transkribus/` module is adapted from
-[YiDraCor](https://github.com/sinairusinek/YiDraCor); it talks to the
-legacy Transkribus REST API (`transkribus.eu/TrpServer/rest`).
-
-```sh
-# from the repo root
-pip install requests
-
-# list collections you can see
-python3 -m code.transkribus.sync collections
-
-# list documents in our collection
-python3 -m code.transkribus.sync docs --col 2224542
-
-# list pages of the notebook
-python3 -m code.transkribus.sync pages --col 2224542 --doc 15908163
-
-# pull all pages as PAGE-XML
-python3 -m code.transkribus.sync pull --col 2224542 --doc 15908163 \
-    --out data/notebook_15908163/page
-
-# push one edited page back as a new transcript layer
-python3 -m code.transkribus.sync push --col 2224542 \
-    --file data/notebook_15908163/page_final/0001_118820705.xml
-
-# or push a whole directory
-python3 -m code.transkribus.sync push-dir --col 2224542 \
-    --dir data/notebook_15908163/page_final
-```
-
-Each push creates a **new transcript layer** parented to whatever revision
-the file was pulled from (the parent `tsId` is read from
-`<TranskribusMetadata>` inside the PAGE-XML), so collaborators' edits never
-overwrite each other's work on the server — they stack as versions.
-
-## Layout
+## Repo map
 
 ```
-code/transkribus/      legacy Transkribus REST client + sync CLI
-data/notebook_15908163/
-  page/                latest PAGE-XML pulled from Transkribus (input)
-  page_final/          post-processed PAGE-XML, ready to push back
+code/
+  transkribus/       legacy Transkribus REST client + pull/push CLI
+  diagnostics/       scripts that scan PAGE-XML and report issues
+data/
+  notebook_15908163/page/        PAGE-XML pulled from doc 15908163 (89 pp., GT)
+  khirbat_al_arais_15642624/page/   PAGE-XML, 30 pp., status NEW
+  khirbat_al_arais_15642625/page/   PAGE-XML, 22 pp., status NEW
+  khirbat_al_arais_15642626/page/   PAGE-XML, 77 pp., status NEW
+docs/
+  COLLABORATORS.md         how to get GitHub + Transkribus access, env vars
+  TRANSKRIBUS.md           sync CLI reference (pull, push, mapping images)
+  TASKS.md                 open post-processing tasks (the to-do list)
+  LTR_ORDER_FINDINGS.md    diagnostic report on bidi-reversed LTR runs
 ```
+
+## Start here
+
+- **New to the project?** Read [docs/COLLABORATORS.md](docs/COLLABORATORS.md)
+  first — it covers requesting access and setting your Transkribus
+  credentials in your shell environment.
+- **Want to pull or push PAGE-XML?** See
+  [docs/TRANSKRIBUS.md](docs/TRANSKRIBUS.md) for the CLI reference.
+- **Looking for something to work on?** Open
+  [docs/TASKS.md](docs/TASKS.md) — diagnostics and fixes for dates, LTR
+  material, line unification, and gershayim normalization.
+- **Curious about the bidi/LTR investigation?** Read
+  [docs/LTR_ORDER_FINDINGS.md](docs/LTR_ORDER_FINDINGS.md) for the first
+  diagnostic sweep (16 pages have reversed-order dates;
+  [code/diagnostics/ltr_order.py](code/diagnostics/ltr_order.py)
+  re-runs the check).
+
+## Working principles
+
+- **Credentials never live in the repo.** Each collaborator authenticates
+  with their own Transkribus account via shell env vars.
+- **Pushes are non-destructive.** Every `push` creates a new transcript
+  layer parented to what you pulled — concurrent work doesn't overwrite.
+- **Diagnose, then fix.** Each post-processing task is split into a
+  survey pass (read-only, produces a report) and a correction pass
+  (writes to `page_final/` or pushes back to Transkribus). Don't
+  hand-edit pages before the survey tells you what the systematic issues
+  actually are.
