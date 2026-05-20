@@ -34,6 +34,9 @@ docs/
   credentials in your shell environment.
 - **Want to pull or push PAGE-XML?** See
   [docs/TRANSKRIBUS.md](docs/TRANSKRIBUS.md) for the CLI reference.
+- **Need the page scans?** Images live next to the PAGE-XML in each doc's
+  `images/` directory (currently only the first 4 pages of doc `15642626`).
+  See [docs/TRANSKRIBUS.md](docs/TRANSKRIBUS.md#pulling-page-images) to pull more.
 - **Looking for something to work on?** Open
   [docs/TASKS.md](docs/TASKS.md) — diagnostics and fixes for dates, LTR
   material, line unification, and gershayim normalization.
