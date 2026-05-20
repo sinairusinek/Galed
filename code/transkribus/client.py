@@ -75,6 +75,12 @@ class TrpClient:
         r.raise_for_status()
         return r.text
 
+    def fetch_image(self, url: str) -> bytes:
+        """Download the page image bytes from its fulldoc `url` field."""
+        r = self.session.get(url, timeout=180)
+        r.raise_for_status()
+        return r.content
+
     def push_transcript(
         self,
         col_id: int,

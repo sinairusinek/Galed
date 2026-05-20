@@ -115,6 +115,34 @@ def cmd_pull(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_pull_images(args: argparse.Namespace) -> int:
+    c = TrpClient.from_env()
+    doc = c.fulldoc(args.col, args.doc)
+    pages = doc.get("pageList", {}).get("pages", [])
+    if args.limit:
+        pages = pages[: args.limit]
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+
+    n_ok = 0
+    for p in pages:
+        page_nr = p.get("pageNr")
+        url = p.get("url")
+        if not url:
+            print(f"[skip] page {page_nr}: no image url", file=sys.stderr)
+            continue
+        img = c.fetch_image(url)
+        # imgFileName like p001.jpg; keep pageNr + pageId so it pairs with the XML
+        ext = Path(p.get("imgFileName", "img.jpg")).suffix or ".jpg"
+        fname = f"{page_nr:04d}_{p.get('pageId')}{ext}"
+        (out / fname).write_bytes(img)
+        n_ok += 1
+        print(f"[pulled] {fname} ({len(img)} bytes)")
+
+    print(f"\nWrote {n_ok} images to {out}")
+    return 0
+
+
 def _extract_trp_metadata(page_xml: str) -> dict:
     """Pull docId / pageId / pageNr / tsid from <TranskribusMetadata> in a PAGE-XML."""
     m = re.search(r"<TranskribusMetadata\b(.*?)/?>", page_xml, re.DOTALL)
@@ -232,6 +260,14 @@ def main(argv: list[str] | None = None) -> int:
     sp.add_argument("--doc", type=int, required=True)
     sp.add_argument("--out", required=True, help="output directory for PAGE-XML files")
     sp.set_defaults(func=cmd_pull)
+
+    sp = sub.add_parser("pull-images", help="download page images to DIR")
+    sp.add_argument("--col", type=int, required=True)
+    sp.add_argument("--doc", type=int, required=True)
+    sp.add_argument("--out", required=True, help="output directory for images")
+    sp.add_argument("--limit", type=int, default=0,
+                    help="only fetch the first N pages (0 = all)")
+    sp.set_defaults(func=cmd_pull_images)
 
     sp = sub.add_parser("push", help="upload one PAGE-XML as a new transcript layer")
     sp.add_argument("--col", type=int, required=True)
