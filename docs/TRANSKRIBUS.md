@@ -8,6 +8,21 @@ a small CLI for pulling and pushing PAGE-XML.
 For credential setup (per-collaborator env vars), see
 [COLLABORATORS.md](COLLABORATORS.md).
 
+## Authentication
+
+The same REST API backs everyone; only how a session logs in differs. The
+route is chosen from the `TRANSKRIBUS_AUTH` env var (auto-detected, no CLI
+flag), and the CLI prints which route it used on connect, e.g.
+`[transkribus] authenticated as you@example.org via oidc route`.
+
+| `TRANSKRIBUS_AUTH` | Route | Who |
+|---|---|---|
+| _(unset)_ → `oidc` | OpenID Connect bearer token ([legacy API](https://help.transkribus.org/transkribus-legacy-api)), auto-refreshed | **Collaborators** — ordinary Transkribus accounts. No config needed. |
+| `login` | `POST /auth/login` JSESSIONID cookie | Collection owner with privileged API access. |
+
+Both read `TRANSKRIBUS_USER` / `TRANSKRIBUS_PASS` for credentials — switching
+routes never means new secrets.
+
 ## Install
 
 ```sh

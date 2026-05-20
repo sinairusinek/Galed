@@ -35,6 +35,18 @@ echo $TRANSKRIBUS_USER
 > **Never** put your password in a file inside this repo, in a commit
 > message, or in a chat. The CLI reads it from your environment only.
 
+### Auth route (you don't need to set this)
+
+The CLI authenticates with the **legacy OpenID Connect route** by default
+([docs](https://help.transkribus.org/transkribus-legacy-api)), which is what
+ordinary Transkribus accounts use — so as a collaborator you set nothing
+extra. Your `TRANSKRIBUS_USER`/`TRANSKRIBUS_PASS` are exchanged for a bearer
+token automatically.
+
+(The collection owner with privileged API access sets
+`export TRANSKRIBUS_AUTH=login` to use the internal `/auth/login` route
+instead. Leave it unset.)
+
 ## 3. Install Python dependency
 
 ```sh
@@ -51,7 +63,8 @@ python3 -m code.transkribus.sync collections
 
 You should see a table that includes our collection (`colId 2224542`). If
 you get `Login failed`, double-check the env vars; if the collection isn't
-in the list, your Transkribus user hasn't been invited yet.
+in the list, your Transkribus user hasn't been invited yet. A
+`token request failed (401)` means your email/password is wrong.
 
 ## 5. Common commands
 
