@@ -34,6 +34,10 @@ python3 -m code.transkribus.sync pages --col 2224542 --doc 15908163
 python3 -m code.transkribus.sync pull --col 2224542 --doc 15908163 \
     --out data/notebook_15908163/page
 
+# pull page images (--limit N fetches only the first N pages; omit for all)
+python3 -m code.transkribus.sync pull-images --col 2388662 --doc 15642626 \
+    --out data/khirbat_al_arais_15642626/images --limit 4
+
 # push one edited PAGE-XML back as a new transcript layer
 python3 -m code.transkribus.sync push --col 2224542 \
     --file data/notebook_15908163/page_final/0002_118820667.xml
@@ -53,6 +57,22 @@ revision the file was pulled from. The parent `tsId` is read out of the
   stack as versions you can compare and revert in the Transkribus UI;
 - you can re-pull at any time and the local file picks up whatever is
   current on the server.
+
+## Pulling page images
+
+`pull-images` downloads each page's source scan via the `url` field in the
+`fulldoc` response and writes it as `{pageNr:04d}_{pageId}.jpg`, so images
+sit alongside the matching PAGE-XML (e.g. `0004_117920120.jpg` ↔
+`0004_117920120.xml`). Images land in their own `images/` directory next to
+`page/`.
+
+Scans are large: a full 77-page document is tens of MB. Use `--limit N`
+while testing, and consider [Git LFS](https://git-lfs.com/) before committing
+many full documents. If a push of binary blobs fails with `HTTP 400` /
+`unexpected disconnect`, raise the buffer once:
+`git config http.postBuffer 524288000` (already set in this clone).
+
+Currently committed: the first 4 pages of doc `15642626` only.
 
 ## Mapping image filenames to pages
 

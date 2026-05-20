@@ -19,6 +19,7 @@ data/
   khirbat_al_arais_15642624/page/   PAGE-XML, 30 pp., status NEW
   khirbat_al_arais_15642625/page/   PAGE-XML, 22 pp., status NEW
   khirbat_al_arais_15642626/page/   PAGE-XML, 77 pp., status NEW
+  khirbat_al_arais_15642626/images/ page scans (first 4 pp. only; see TRANSKRIBUS.md)
 docs/
   COLLABORATORS.md         how to get GitHub + Transkribus access, env vars
   TRANSKRIBUS.md           sync CLI reference (pull, push, mapping images)
