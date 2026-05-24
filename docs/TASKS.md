@@ -30,14 +30,22 @@ pipeline step that fixes it and writes corrected PAGE-XML to
 
 ## 3. Line extension and unification
 
-- [ ] Identify lines split across the page that should be a single logical
+- [x] Identify lines split across the page that should be a single logical
       line (continuations, hanging words, marginal extensions).
-- [ ] Diagnose at the PAGE-XML level: are these separate `<TextLine>`
-      elements, separate `<TextRegion>`s, or split baselines?
-- [ ] Define merge rules (geometric adjacency, reading order, indent
+- [x] Diagnose at the PAGE-XML level: are these separate `<TextLine>`
+      elements, separate `<TextRegion>`s, or split baselines? → separate
+      `<TextLine>` elements within one region, split horizontally.
+- [x] Define merge rules (geometric adjacency, reading order, indent
       heuristics) and unify the offending lines, preserving baseline
-      coordinates for the merged result.
+      coordinates for the merged result. → [`code/corrections/line_merge.py`](../code/corrections/line_merge.py):
+      cluster lines whose baseline centres are within half the median line
+      spacing, concatenate RTL (rightmost fragment first), merge baselines,
+      and clamp every line to a full-width band `[region_xmin .. region_xmax]`.
 - [ ] Spot-check on a handful of pages before running across all 89.
+      → done for doc `15642626` page 10 (37→34 lines, 3 fragment-rows merged;
+      pushed as a new transcript layer). Lines an inline illustration wraps
+      around are already handled (their fragments share a baseline). **Open:**
+      subscript / below-baseline comments are mis-recognised — a separate issue.
 
 ## 4. Acronym normalization (gershayim)
 
