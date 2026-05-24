@@ -8,13 +8,18 @@ pipeline step that fixes it and writes corrected PAGE-XML to
 
 ## 1. Dates
 
-- [ ] Inventory every date-like token in the transcription (Hebrew calendar,
-      Gregorian, mixed; e.g. `תרצ"ח`, `1938`, `15.4.38`, `ט"ו ניסן`).
-- [ ] Classify: Hebrew-letter numerals vs. Arabic numerals vs. month names.
-- [ ] Flag malformed dates (missing gershayim, OCR-confused digits like
-      `1`/`l`/`ו`, wrong separators).
-- [ ] Decide a normalized representation and emit corrected forms in
-      `page_final/`; consider tagging dates so they're queryable downstream.
+- [x] Inventory date tokens of the form day/Roman-month/year (the dominant
+      pattern). [`code/diagnostics/date_spans.py`](../code/diagnostics/date_spans.py)
+      finds 255 spans on 87 pages, separating dates from fractions (`1/2`) by
+      requiring a Roman-numeral month.
+- [ ] Inventory the remaining date styles (Hebrew calendar `תרצ"ח`, `15.4.38`,
+      month names `ט"ו ניסן`) — not yet covered.
+- [x] Flag malformed/inconsistent dates: 16 use a `\` separator, 37 use Unicode
+      Roman numerals (`Ⅳ` U+2163) instead of ASCII, 25 are reversed
+      year/month/day (bidi artifact, overlaps #2 / LTR_ORDER_FINDINGS).
+- [ ] **Correct date order first** (reverse the year/month/day cases), *then*
+      normalize Roman numerals (`Ⅳ`→`IV`) and consider `\`→`/`. Order matters:
+      Roman/slash normalization only makes sense on already-ordered dates.
 
 ## 2. Roman letters and other LTR material
 
@@ -47,15 +52,21 @@ pipeline step that fixes it and writes corrected PAGE-XML to
       around are already handled (their fragments share a baseline). **Open:**
       subscript / below-baseline comments are mis-recognised — a separate issue.
 
-## 4. Acronym normalization (gershayim)
+## 4. Acronym / punctuation normalization (gershayim + dashes)
 
-- [ ] Survey all uses of `"` and `״` (Hebrew gershayim) and `'` / `׳`
-      (geresh) in the transcription — acronyms vs. quotation marks vs.
-      stray punctuation.
-- [ ] Normalize the character itself: ASCII `"`/`'` → Unicode `״` (U+05F4)
-      and `׳` (U+05F3) where the context is Hebrew abbreviation.
+- [x] Survey all uses of `"`/`״` and `'`/`׳` —
+      [`code/diagnostics/quote_survey.py`](../code/diagnostics/quote_survey.py)
+      classifies by function (acronym / abbrev / transliteration / quotation).
+- [x] Normalize the character itself. **Decision:** collapse *all* quote-like
+      marks to Hebrew punctuation by width (single→`׳`, double→`״`), including
+      quotation marks — uniform glyphs help OCR training. Also unite dash
+      variants (`–`→`-`). Done in
+      [`code/corrections/normalize.py`](../code/corrections/normalize.py)
+      (families `quotes`, `dashes`); 1041 marks + 82 dashes over 88 pages,
+      written to `page_final/`. Quote pass pushed to Transkribus as new layers.
 - [ ] Normalize *position*: gershayim belongs before the final letter
-      (`תשע״ה`, not `תשעה״`); fix misplacements.
+      (`תשע״ה`, not `תשעה״`); fix misplacements. (Not done — by-width pass
+      doesn't move marks.)
 - [ ] Build a small acronym lexicon (`ז״ל`, `תנ״ך`, `ע״פ`, site- and
       period-specific abbreviations from the notebook) to validate
       candidates against.

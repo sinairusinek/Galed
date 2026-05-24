@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.35.0:model_id=396997:lm=provided:date=01_01_2026_11:31</Creator>
+        <Created>2025-12-03T18:25:50.464+01:00</Created>
+        <LastChange>2026-05-19T15:59:03.580+02:00</LastChange>
+        <TranskribusMetadata docId="15908163" pageId="118820667" pageNr="2" userId="2180" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=CYWDWQPZWQTFJAYTOASCPSMK" imageId="90282983" />
+    </Metadata>
+    <Page imageFilename="107452901.jpg" imageWidth="689" imageHeight="919">
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="49,36 45,441 49,808 655,808 655,36" />
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="43,79 657,57 657,21 43,34" />
+                <Baseline points="48,69 418,59 659,67" />
+                <TextEquiv>
+                    <Unicode>כ47 קIX ח. מע. 1/VII/72. היום המשכתי להוציא חרוזים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l" custom="readingOrder {index:1;}">
+                <Coords points="52,100 655,87 655,87 655,87 655,57 655,57 655,57 51,70" />
+                <Baseline points="52,100 655,87 655,87 655,87" />
+                <TextEquiv>
+                    <Unicode>באיזור האגן של הנקבר האחרון (= שכבה I). בקצה העליון</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:2;}">
+                <Coords points="37,141 658,112 658,86 603,91 567,68 97,67 39,87" />
+                <Baseline points="43,130 430,112 459,112 660,110" />
+                <TextEquiv>
+                    <Unicode>(מבחינת הנקבר, לו היה עומד) יש שורות-שורות מקבילות וארוכות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="447,141 459,144 469,139 509,141 516,136 524,137 525,117 518,116 511,121 500,110 467,109 461,114 456,109 448,109" />
+                <Baseline points="65,155 489,138 660,137" />
+                <TextEquiv>
+                    <Unicode>של חרוזים לרחב הגוף במיוחד באיזור (ובכיוון) שחוגרים בימינו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:4;}">
+                <Coords points="51,182 661,162 661,162 661,162 661,132 661,132 661,132 50,152" />
+                <Baseline points="51,182 661,162 661,162 661,162" />
+                <TextEquiv>
+                    <Unicode>חגורה, והן מונחות על ״הרצפה״ עליה הונח השלד, ז.א. תחת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:5;}">
+                <Coords points="75,204 663,186 663,186 663,156 663,156 74,174" />
+                <Baseline points="75,204 663,186 663,186" />
+                <TextEquiv>
+                    <Unicode>השלד, דהיינו שהבגד עליו היה לדעתי החרוזים, היה מקושט</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:6;}">
+                <Coords points="82,232 662,217 662,217 662,187 662,187 81,202" />
+                <Baseline points="82,232 662,217 662,217" />
+                <TextEquiv>
+                    <Unicode>בחרוזים גם בחלק של הגב (או אם זו בכלל מחרוזת פרוש</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_20" custom="readingOrder {index:7;}">
+                <Coords points="135,257 309,243 580,254 592,209 364,227 254,216 135,237" />
+                <Baseline points="58,269 165,252 190,250 215,248 240,246 265,244 291,242 316,242 341,242 366,244 391,242 416,242 442,242 467,243 492,242 517,242 542,242 567,241 657,240" />
+                <TextEquiv>
+                    <Unicode>הדבר שגלגלו אותה סביב הגוף פעמים רבות ובצפיפות. העובדה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_22" custom="readingOrder {index:8;}">
+                <Coords points="142,278 648,274 648,248 626,245 142,258" />
+                <Baseline points="74,288 172,273 197,272 222,273 247,273 272,272 297,271 323,271 348,269 373,269 398,268 423,271 448,271 473,271 499,271 524,270 549,271 574,269 599,268 624,269 650,271" />
+                <TextEquiv>
+                    <Unicode>ששטח החרוזים מגיע בצפ-מז זו עד לזרוע השמאלית (ואילו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_24" custom="readingOrder {index:9;}">
+                <Coords points="85,317 431,292 538,311 650,299 651,273 85,286" />
+                <Baseline points="90,305 118,304 146,302 174,299 202,299 230,297 258,297 286,296 314,295 342,294 371,292 399,294 427,291 455,293 483,295 511,293 539,294 567,292 595,293 623,291 652,291" />
+                <TextEquiv>
+                    <Unicode>בדרום, רק עד הקצה הימני של האגן ולא מעברו) מעידה אולי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_25" custom="readingOrder {index:10;}">
+                <Coords points="96,344 616,331 653,325 654,299 537,311 372,293 340,311 97,316" />
+                <Baseline points="45,339 129,333 157,333 184,330 212,329 240,328 267,327 295,327 323,327 350,323 378,321 406,321 433,321 461,321 489,320 516,319 544,319 572,319 599,320 627,318 655,322" />
+                <TextEquiv>
+                    <Unicode>שלנקבר(ת) היתה בטן גדולה. - גם תחת החוליות התחתונות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_26" custom="readingOrder {index:11;}">
+                <Coords points="51,372 311,367 401,343 652,356 651,324 52,348" />
+                <Baseline points="56,364 85,361 115,359 145,358 175,357 205,354 235,352 265,353 295,351 325,349 355,346 384,344 414,342 444,343 474,344 504,344 534,344 564,345 594,344 624,344 654,346" />
+                <TextEquiv>
+                    <Unicode>(לפחות שתי הקרובות ל sacrum) יש חרוזים, ז.א. שאמנם עברו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_27" custom="readingOrder {index:12;}">
+                <Coords points="50,390 653,381 653,356 575,345 51,372" />
+                <Baseline points="55,387 85,387 115,388 145,386 175,385 205,384 235,383 265,382 295,380 325,381 355,377 385,374 415,373 445,373 475,372 505,372 535,369 565,373 595,371 625,371 655,375" />
+                <TextEquiv>
+                    <Unicode>גם בגבו של הנקבר, באיזור החגורה. הוצאתי היום את המחצית</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_28" custom="readingOrder {index:13;}">
+                <Coords points="44,422 623,417 651,412 652,382 44,399" />
+                <Baseline points="49,416 79,413 109,413 139,414 169,413 200,412 230,410 260,407 290,406 320,405 351,405 381,405 411,406 441,405 471,406 502,405 532,406 562,405 592,405 622,405 653,407" />
+                <TextEquiv>
+                    <Unicode>השמאלית של האגן את ה sacrum ואת (2 ?) החוליות הצמודות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:14;}">
+                <Coords points="45,431 134,427 133,397 48,401" />
+                <Baseline points="45,431 134,427" />
+                <TextEquiv>
+                    <Unicode>של 1/2 האגן השמאלי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:15;}">
+                <Coords points="60,445 656,438 656,438 656,408 656,408 60,415" />
+                <Baseline points="60,445 656,438 656,438" />
+                <TextEquiv>
+                    <Unicode>לsacrum תחת החלק התחתון (מבחינת הנקבר, לו היה עומד)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_31" custom="readingOrder {index:16;}">
+                <Coords points="51,480 652,475 653,440 628,436 52,448" />
+                <Baseline points="56,467 85,467 115,464 145,462 175,461 205,461 235,461 265,461 295,461 325,459 355,458 384,458 414,458 444,458 474,459 504,459 534,459 564,460 594,460 624,462 654,464" />
+                <TextEquiv>
+                    <Unicode>אין חרוזים, אך תחת החלק העליון יש. לא בטוח אם היו חרוזים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_32" custom="readingOrder {index:17;}">
+                <Coords points="70,503 247,491 496,503 551,496 552,473 71,476" />
+                <Baseline points="75,495 100,490 125,489 150,491 175,490 200,490 225,490 251,490 276,491 301,491 326,491 351,491 376,490 402,488 427,487 452,487 477,486 502,485 527,486 652,489" />
+                <TextEquiv>
+                    <Unicode>שמתחת ל sacrum, באתרם, אך תחת החוליות היו כאמור</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:18;}">
+                <Coords points="546,502 612,502 612,472 546,472" />
+                <Baseline points="546,502 612,502" />
+                <TextEquiv>
+                    <Unicode />
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_34" custom="readingOrder {index:19;}">
+                <Coords points="91,526 651,520 651,496 555,491 91,501" />
+                <Baseline points="96,520 123,518 151,520 179,520 207,520 235,521 263,522 290,522 318,521 346,520 374,519 402,517 430,515 458,515 485,515 513,515 541,514 569,516 597,518 625,516 653,513" />
+                <TextEquiv>
+                    <Unicode>שורות ארוכות של חרוזים לרחב גוףהנקבר(ת). כאמור</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_35" custom="readingOrder {index:20;}">
+                <Coords points="89,550 637,541 627,520 202,538 90,525" />
+                <Baseline points="95,545 122,544 149,545 176,545 203,546 231,546 258,545 285,544 312,544 339,544 367,543 394,542 421,540 448,539 475,541 503,542 530,541 557,539 584,539 611,537 639,537" />
+                <TextEquiv>
+                    <Unicode>נימצאות שורות החרוזים לעיתים קרובות מקבילות, ממש אחד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_36" custom="readingOrder {index:21;}">
+                <Coords points="53,580 405,583 649,559 650,539 192,558 54,540" />
+                <Baseline points="58,568 87,566 117,568 146,568 176,569 206,570 235,568 265,565 295,565 324,564 354,562 384,560 413,560 443,560 473,560 502,560 532,559 562,557 591,557 621,556 651,553" />
+                <TextEquiv>
+                    <Unicode>ליד (ולעיתים על) השניה כך שאפילו אם היתה זו מחרזת ארוכה מאוד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_37" custom="readingOrder {index:22;}">
+                <Coords points="70,605 650,588 651,561 612,556 71,579" />
+                <Baseline points="76,595 104,592 133,592 162,592 191,592 220,589 248,588 277,588 306,585 335,584 364,584 392,584 421,585 450,583 479,582 508,581 536,580 565,578 594,578 623,581 652,582" />
+                <TextEquiv>
+                    <Unicode>שנכרכה מסביב למתניים, היתה צריכה להיות מוחזקת (תפורה?)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_38" custom="readingOrder {index:23;}">
+                <Coords points="77,625 649,611 638,586 552,580 78,605" />
+                <Baseline points="58,624 108,623 139,620 168,618 196,617 225,616 253,613 281,612 310,612 338,609 367,607 395,607 423,607 452,607 480,605 509,604 537,604 565,600 594,601 622,603 651,607" />
+                <TextEquiv>
+                    <Unicode>פה ושם, אחרת לא היו השורות כה צפופות, חופפות. יצויין</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_39" custom="readingOrder {index:24;}">
+                <Coords points="82,656 648,641 649,610 609,607 83,627" />
+                <Baseline points="87,650 115,647 143,645 171,645 199,643 228,642 256,642 284,638 312,637 340,636 369,635 397,635 425,635 453,635 481,632 510,632 538,634 566,634 594,634 622,632 651,635" />
+                <TextEquiv>
+                    <Unicode>שמצב החרוזים, כרוכים מסביב למתניים, ויותר למטה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_40" custom="readingOrder {index:25;}">
+                <Coords points="74,683 535,670 571,661 572,638 75,655" />
+                <Baseline points="79,681 105,675 131,673 157,672 183,670 209,667 235,665 261,665 287,662 313,663 339,665 365,663 391,664 417,662 443,660 469,658 495,658 521,655 547,657 649,659" />
+                <TextEquiv>
+                    <Unicode> רק בצד הקדמי של הנקבר, מזכיר מאוד פסלים הודיים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_41" custom="readingOrder {index:26;}">
+                <Coords points="149,705 541,687 588,698 619,691 620,663 150,676" />
+                <Baseline points="155,697 180,696 206,696 232,693 258,691 284,691 310,691 336,691 362,690 388,688 414,684 440,683 466,682 492,682 518,681 544,679 570,680 596,679 651,681" />
+                <TextEquiv>
+                    <Unicode>רבים (שהם אמנם מאוחרים בהרבה מהקבר הנידון).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_42" custom="readingOrder {index:27;}">
+                <Coords points="116,734 644,721 645,695 421,683 347,709 166,703 117,719" />
+                <Baseline points="122,728 148,726 174,725 200,724 226,725 253,726 279,725 305,722 331,723 357,723 384,721 410,718 436,715 462,713 488,713 515,712 541,711 567,712 593,713 619,715 646,715" />
+                <TextEquiv>
+                    <Unicode>הוצאתי היום כמות גדולה מאוד של חרוזים.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_44" custom="readingOrder {index:28;}">
+                <Coords points="205,754 411,754 475,734 631,742 633,721 514,713 339,726 317,743 276,729 206,742" />
+                <Baseline points="43,749 231,745 260,744 288,746 315,745 341,746 369,745 395,737 422,735 448,734 475,732 501,734 528,732 554,732 581,734 607,735 634,737" />
+                <TextEquiv>
+                    <Unicode>מספרם הוא 1846+שברים של לפחות עוד כ-5. (ספירה נגמרה רק ב 72/VII/5)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:29;}">
+                <Coords points="193,757 418,750 417,720 192,727" />
+                <Baseline points="193,757 418,750" />
+                <TextEquiv>
+                    <Unicode />
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_47" custom="readingOrder {index:30;}">
+                <Coords points="162,786 464,762 637,778 645,746 479,733 415,753 163,753" />
+                <Baseline points="54,783 59,782 217,773 242,772 268,771 293,771 318,771 343,768 369,766 394,765 419,763 444,762 470,760 495,759 520,760 545,760 571,758 596,758 621,762 647,766" />
+                <TextEquiv>
+                    <Unicode>העצמות, על אף היותם באתרם, הם במצב גרוע, דבר המקובל</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_49" custom="readingOrder {index:31;}">
+                <Coords points="166,810 645,822 646,777 414,766 166,783" />
+                <Baseline points="91,799 196,797 221,796 246,797 271,797 296,796 321,794 346,793 371,793 396,792 421,791 446,790 471,791 496,790 521,788 546,788 571,790 596,792 621,792 647,796" />
+                <TextEquiv>
+                    <Unicode>אמנם בכ47 בעצמות המונחים (בעיקרם) בתוך החמר הלבן.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode />
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
