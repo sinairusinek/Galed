@@ -8,12 +8,56 @@ runs (Roman numerals for strata, dates, site codes), and the pipeline's
 job is to surface and fix the systematic issues that show up in HTR
 output and in transcriber edits.
 
+## In plain language: what this project is and what we've done
+
+These are scanned pages of a hand-written archaeological field notebook.
+A computer (the Transkribus platform) reads the handwriting and turns it
+into typed text, and human transcribers correct what the computer gets
+wrong. That automatic reading is never perfect, and it makes the *same
+kinds of mistakes* over and over — so instead of fixing each page by
+hand, we write small programs that find a recurring problem across all
+the pages and fix it everywhere at once.
+
+The text is especially tricky because it is mostly Hebrew (read
+right-to-left) with bits of left-to-right material mixed in — dates,
+Roman numerals for the dig's strata, site codes, measurements. Computers
+often scramble the order of these mixed runs, which is a big part of what
+we have to clean up.
+
+So far we have built tools that:
+
+- **Download and re-upload the pages safely.** We pull the latest
+  transcription from Transkribus and, when we push corrections back, we
+  always add a *new* version rather than overwriting anyone's work, so
+  nothing is ever lost and several people can work at once.
+- **Survey before fixing.** For each kind of problem we first run a
+  read-only "diagnosis" that reports how often and where it occurs (for
+  example, we found 255 dates across 87 pages and flagged the ones that
+  are malformed or written in the wrong order). Only then do we write a
+  fix.
+- **Standardise punctuation.** Hebrew uses special marks (geresh and
+  gershayim) that the computer transcribed inconsistently with a jumble
+  of look-alike quote symbols. We unified them all (1,041 marks plus 82
+  dash variants across 88 pages), because consistent symbols make the
+  computer's reading more accurate over time.
+- **Merge split lines.** The computer sometimes breaks one written line
+  into several pieces. We detect those pieces and stitch them back into a
+  single line, in the correct right-to-left order.
+- **Investigate the date / direction problems.** We catalogued where
+  dates and other left-to-right text come out reversed, as the basis for
+  fixing the ordering next.
+
+The corrected pages are kept separate from the originals (in a
+`page_final/` folder) so the raw download is never altered. The sections
+below are the technical reference for collaborators.
+
 ## Repo map
 
 ```
 code/
   transkribus/       legacy Transkribus REST client + pull/push CLI
-  diagnostics/       scripts that scan PAGE-XML and report issues
+  diagnostics/       read-only scripts that scan PAGE-XML and report issues
+  corrections/       scripts that rewrite PAGE-XML to fix the issues found
 data/
   notebook_15908163/page/        PAGE-XML pulled from doc 15908163 (89 pp., GT)
   khirbat_al_arais_15642624/page/   PAGE-XML, 30 pp., status NEW
