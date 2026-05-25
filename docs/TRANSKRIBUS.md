@@ -73,6 +73,20 @@ revision the file was pulled from. The parent `tsId` is read out of the
 - you can re-pull at any time and the local file picks up whatever is
   current on the server.
 
+### When a transcript has no TranskribusMetadata
+
+`push` / `push-dir` normally read `docId`, `pageNr`, and the parent `tsId`
+out of the `<TranskribusMetadata>` block in each PAGE-XML. Some server-side
+transcripts (e.g. unverified HTR layers on doc `15642626`) ship without that
+block, so a freshly pulled file can't say where it belongs.
+
+`push-dir` falls back to the pull's `_manifest.json` for those fields, keyed
+by filename. It auto-detects the manifest in `--dir`, then in a sibling
+`page/` directory (so pushing a `page_final/` of corrected files just works,
+since they keep the pulled filename). Override the location with `--manifest
+PATH`. For a single file, pass `--doc` / `--page-nr` / `--parent` to `push`
+explicitly.
+
 ## Pulling page images
 
 `pull-images` downloads each page's source scan via the `url` field in the

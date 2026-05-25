@@ -200,6 +200,30 @@ def cmd_push(args: argparse.Namespace) -> int:
     return 0
 
 
+def _load_manifest(dir_path: Path, manifest_arg: str | None) -> tuple[dict, dict]:
+    """Return (per-file index, top-level fields) from a pull's _manifest.json.
+
+    Some server-side transcripts ship without a <TranskribusMetadata> block, so
+    a pulled PAGE-XML can't tell push-dir its docId/pageNr/parent. The pull's
+    _manifest.json records those per file, so it's the fallback. The index is
+    keyed by filename: {file: {"pageNr", "pageId", "tsId", "status"}}.
+
+    Looks at --manifest if given, else _manifest.json in the push dir, else the
+    same file in a sibling page/ dir (page_final/ outputs keep the pulled name).
+    """
+    candidates = []
+    if manifest_arg:
+        candidates.append(Path(manifest_arg))
+    candidates.append(dir_path / "_manifest.json")
+    candidates.append(dir_path.parent / "page" / "_manifest.json")
+    for cand in candidates:
+        if cand.is_file():
+            data = json.loads(cand.read_text(encoding="utf-8"))
+            index = {p["file"]: p for p in data.get("pages", [])}
+            return index, data
+    return {}, {}
+
+
 def cmd_push_dir(args: argparse.Namespace) -> int:
     if args.col is None:
         print("ERROR: --col is required", file=sys.stderr)
@@ -210,17 +234,27 @@ def cmd_push_dir(args: argparse.Namespace) -> int:
         print(f"No .xml files in {args.dir}", file=sys.stderr)
         return 1
 
+    manifest_idx, manifest_top = _load_manifest(Path(args.dir), args.manifest)
+    if manifest_idx:
+        print(f"[manifest] {len(manifest_idx)} pages available as fallback")
+
     c = None if args.dry_run else TrpClient.from_env()
     note = args.note or f"YiDraCor annotation push {_dt.date.today().isoformat()}"
     n_ok = n_skip = n_err = 0
     for f in files:
         xml = f.read_text(encoding="utf-8")
         meta = _extract_trp_metadata(xml)
-        doc_id = args.doc if args.doc is not None else meta.get("docId")
+        mf = manifest_idx.get(f.name, {})
+        doc_id = (args.doc if args.doc is not None
+                  else meta.get("docId") or manifest_top.get("docId"))
         page_nr = meta.get("pageNr")
+        if page_nr is None:
+            page_nr = mf.get("pageNr")
         parent = meta.get("tsid")
+        if parent is None:
+            parent = mf.get("tsId")
         if doc_id is None or page_nr is None:
-            print(f"[skip] {f.name}: no TranskribusMetadata")
+            print(f"[skip] {f.name}: no TranskribusMetadata and no manifest entry")
             n_skip += 1
             continue
         print(f"[push] {f.name} → doc={doc_id} pageNr={page_nr} parent={parent}", end="")
@@ -288,6 +322,10 @@ def main(argv: list[str] | None = None) -> int:
     sp.add_argument("--col", type=int, required=True)
     sp.add_argument("--doc", type=int, help="override docId from metadata")
     sp.add_argument("--dir", required=True, help="directory of PAGE-XML files")
+    sp.add_argument("--manifest", default=None,
+                    help="pull _manifest.json for pageNr/parent fallback when a "
+                         "file has no TranskribusMetadata (default: auto-detect "
+                         "in --dir, then a sibling page/ dir)")
     sp.add_argument("--status", default="IN_PROGRESS")
     sp.add_argument("--tool-name", default="YiDraCor-annotation-pipeline")
     sp.add_argument("--note", default=None)
