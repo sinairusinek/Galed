@@ -8,7 +8,7 @@ runs (Roman numerals for strata, dates, site codes), and the pipeline's
 job is to surface and fix the systematic issues that show up in HTR
 output and in transcriber edits.
 
-## In plain language: what this project is and what we've done
+## What this project is and what we've done
 
 These are scanned pages of a hand-written archaeological field notebook.
 A computer (the Transkribus platform) reads the handwriting and turns it
